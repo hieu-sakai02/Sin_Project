@@ -55,7 +55,7 @@ public class mission : MonoBehaviour
                     note.SetActive(false);
                     if (firstTime == true)
                     {
-                        mainMissionText.text = "Mission: Collect 15 memory pieces (" + itemcollect + "/10)";
+                        mainMissionText.text = "Mission: Collect 10 memory pieces (" + itemcollect + "/10)";
                         mainMission.SetActive(true);
                         mainKey.SetActive(false);
                         doorAnim.SetTrigger("open");
@@ -66,7 +66,7 @@ public class mission : MonoBehaviour
         }
         if (firstTime == false)
         {
-            mainMissionText.text = "Mission: Collect 15 memory pieces (" + itemcollect + "/15)";
+            mainMissionText.text = "Mission: Collect 10 memory pieces (" + itemcollect + "/10)";
         }
     }
 }

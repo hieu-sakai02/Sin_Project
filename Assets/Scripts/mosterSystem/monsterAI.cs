@@ -11,6 +11,7 @@ public class monsterAI : MonoBehaviour
     public bool walking, chasing, idle;
     Vector3 dest;
     public float chaseTime, idleTime;
+    public GameObject RunText;
 
     void Start()
     {
@@ -72,6 +73,7 @@ public class monsterAI : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            RunText.SetActive(true);
             chasing = true;
             walking = false;
             idle = false;
@@ -138,6 +140,7 @@ public class monsterAI : MonoBehaviour
     IEnumerator chase()
     {
         yield return new WaitForSeconds(chaseTime);
+        RunText.SetActive(false);
         chasing = false;
         walking = true;
         aiAnim.ResetTrigger("idle");

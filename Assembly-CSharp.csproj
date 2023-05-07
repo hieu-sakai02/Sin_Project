@@ -58,13 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\JumpScare.cs" />
     <Compile Include="Assets\Scripts\camBob.cs" />
-    <Compile Include="Assets\doorPasscode.cs" />
+    <Compile Include="Assets\Scripts\doorPasscode.cs" />
     <Compile Include="Assets\Scripts\endChaseroom.cs" />
     <Compile Include="Assets\Scripts\collectSystem\mission.cs" />
     <Compile Include="Assets\Scripts\hiddenwall.cs" />
     <Compile Include="Assets\Scripts\mosterSystem\monsterAI.cs" />
     <Compile Include="Assets\Scripts\door.cs" />
-    <Compile Include="Assets\Scripts\nextLevel.cs" />
+    <Compile Include="Assets\Scripts\key.cs" />
+    <Compile Include="Assets\Scripts\mosterSystem\eyes.cs" />
     <Compile Include="Assets\Scripts\keypadSystem\passcode.cs" />
     <Compile Include="Assets\Scripts\deathScene.cs" />
     <Compile Include="Assets\EscalatorPro\Script\Runtime\EscalatorPro.cs" />
@@ -72,7 +73,6 @@
     <Compile Include="Assets\Scripts\OpeningScene.cs" />
     <Compile Include="Assets\Keypad\Script\Playsound.cs" />
     <Compile Include="Assets\Scripts\mosterSystem\monsterJumpscare.cs" />
-    <Compile Include="Assets\Scripts\pickupKey.cs" />
     <Compile Include="Assets\Scripts\menu\setting.cs" />
     <Compile Include="Assets\EscalatorPro\Script\Runtime\Stair.cs" />
     <Compile Include="Assets\Scripts\interact.cs" />
@@ -83,11 +83,13 @@
     <Compile Include="Assets\Scripts\LightSwitch.cs" />
     <Compile Include="Assets\Scripts\HallLightSwitch.cs" />
     <Compile Include="Assets\Scripts\mission_trigger_hall.cs" />
-    <Compile Include="Assets\getPaper.cs" />
+    <Compile Include="Assets\Scripts\collectSystem\getPaper.cs" />
     <Compile Include="Assets\Scripts\summonMonster.cs" />
     <Compile Include="Assets\Scripts\pickupFlash.cs" />
     <Compile Include="Assets\Scripts\menu\menu.cs" />
     <Compile Include="Assets\Scripts\mosterSystem\destinations.cs" />
+    <Compile Include="Assets\Scripts\endingSystem\basicTrigger.cs" />
+    <Compile Include="Assets\Scripts\endingSystem\endingNote.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -104,6 +106,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Model\Key\readME keys.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\EscalatorPro\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
